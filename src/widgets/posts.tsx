@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 export default function Posts() {
   return (
@@ -15,40 +14,45 @@ export default function Posts() {
       <div className="web">
         <div className="web-cont font-audiowide">
           <div className="navbar">
-            <div className="navbar-container flex items-center py-5 px-16 justify-between">
-              <div className="logo w-[15rem]">
+            <div className="navbar-container flex items-center py-5 px-16 2xl:justify-between tel:justify-center">
+              <div className="logo 2xl:w-[15rem] lg:w-[13rem]">
                 <img src="assets/svg/image1.png" alt="" />
               </div>
-              <ul className="flex py-4 px-4">
-                <li className="mr-8 px-3 py-1 rounded text-lg text-white  bg-primary">
+              <img
+                src="assets/svg/menu.png"
+                alt=""
+                className="2xl:hidden tel:block absolute right-10"
+              />
+              <ul className=" py-4 px-4 2xl:flex tel:hidden">
+                <li className="3xl:mr-8 px-3 py-1 rounded 3xl:text-xl text-white  bg-primary">
                   <Link href="#">Home</Link>
                 </li>
 
-                <li className="mr-8 px-3 py-1 rounded text-xl">
+                <li className="3xl:mr-8 px-3 py-1 rounded 2xl:text-xl">
                   <Link href="#">Products</Link>
                 </li>
-                <li className="mr-8 px-3 py-1 rounded text-xl">
+                <li className="3xl:mr-8 px-3 py-1 rounded 2xl:text-xl">
                   <Link href="#">Design</Link>
                 </li>
-                <li className="mr-8 px-3 py-1 rounded text-xl">
+                <li className="3xl:mr-8 px-3 py-1 rounded 2xl:text-xl">
                   <Link href="#">Services</Link>
                 </li>
-                <li className="mr-8 px-3 py-1 rounded text-xl">
+                <li className="3xl:mr-8 px-3 py-1 rounded 2xl:text-xl">
                   <Link href="#">Gallery</Link>
                 </li>
-                <li className="mr-8 px-3 py-1 rounded text-xl">
+                <li className="3xl:mr-8 px-3 py-1 rounded 2xl:text-xl">
                   <Link href="#">About us</Link>
                 </li>
-                <li className="mr-8 px-3 py-1 rounded text-xl">
+                <li className="3xl:mr-8 px-3 py-1 rounded 2xl:text-xl">
                   <Link href="#">Contact us</Link>
                 </li>
               </ul>
-              <div className="others">
+              <div className="others 2xl:flex tel:hidden">
                 <div className="others-cont flex">
                   <div className="search-cont relative ">
                     <input
                       type="text"
-                      className="border-[2px] border-primary mr-4 outline-none h-full rounded"
+                      className="border-[2px] border-primary mr-4 outline-none h-full rounded w-[10rem]"
                     />
                     <div className="bg-primary px-2 py-1 w-fit absolute rounded top-[2px] right-[17px]">
                       <img
@@ -62,7 +66,7 @@ export default function Posts() {
                     Sign up
                   </button>
                 </div>
-                <p className="text-[10px] absolute right-16">
+                <p className="text-[10px] absolute right-16 top-20">
                   Already have an account
                 </p>
               </div>
