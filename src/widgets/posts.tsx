@@ -13,6 +13,7 @@ export default function Posts() {
 
       <div className="web">
         <div className="web-cont font-audiowide">
+          {/* Navbar */}
           <div className="navbar">
             <div className="navbar-container flex items-center py-5 px-16 2xl:justify-between tel:justify-center">
               <div className="logo 2xl:w-[15rem] lg:w-[13rem]">
@@ -72,6 +73,19 @@ export default function Posts() {
               </div>
             </div>
           </div>
+          {/* Navbar End */}
+
+          {/* Header */}
+          <div className="header">
+            <div className="header-container">
+              <img
+                src="assets/svg/headerimage.png"
+                alt=""
+                className="h-screen"
+              />
+            </div>
+          </div>
+          {/* Header End */}
         </div>
       </div>
     </>
