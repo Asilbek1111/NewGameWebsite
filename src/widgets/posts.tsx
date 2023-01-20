@@ -1,4 +1,7 @@
 import Link from "next/link";
+
+
+
 export default function Posts() {
   return (
     <>
@@ -78,11 +81,7 @@ export default function Posts() {
           {/* Header */}
           <div className="header">
             <div className="header-container">
-              <img
-                src="assets/svg/headerimage.png"
-                alt=""
-                className="h-screen"
-              />
+              <img src="assets/svg/headerimage.png" alt="" className="w-full" />
             </div>
           </div>
           {/* Header End */}
